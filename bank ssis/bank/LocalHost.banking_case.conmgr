@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="LocalHost.banking_case"
+  DTS:DTSID="{0538C972-A52D-498D-AAEC-25FE3E54996F}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=.;Initial Catalog=banking_case;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-bank-{0538C972-A52D-498D-AAEC-25FE3E54996F}LocalHost.banking_case;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
